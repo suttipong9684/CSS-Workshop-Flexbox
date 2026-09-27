@@ -1,0 +1,45 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: hsl(217, 15%, 95%);
+}
+
+button {
+  font-weight: 600;
+  font-size: 12px;
+  color: hsl(217, 10%, 20%);
+}
+
+.action-bar {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 10px;
+}
+
+.panel {
+  background-color: hsl(200, 7%, 98%);
+  padding: 20px 10px;
+  border: 1px solid hsl(217, 10%, 85%);
+  border-radius: 5px;
+  margin: 30px;
+}
+
+.action-group {
+  display: flex;
+  gap: 10px;
+}
+
+.action-group button {
+  padding: 10px 12px;
+  border: 1px solid hsl(217, 10%, 85%);
+  border-radius: 5px;
+}
+
+.primary {
+  background-color: hsl(142, 78%, 20%);
+  color: hsl(0, 0%, 89%);
+}

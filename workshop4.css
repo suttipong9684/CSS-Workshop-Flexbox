@@ -1,0 +1,39 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: sans-serif;
+  background: #f6f7fb;
+}
+
+.card-list {
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+  padding: 30px;
+}
+
+.card {
+  background-color: #fff;
+  min-height: 160px;
+  padding: 20px;
+  border: 1px solid hsl(210, 4%, 78%);
+  border-radius: 10px;
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.card .card__eyebrow {
+  font-size: 14px;
+  font-weight: 700;
+  color: hsl(121, 100%, 18%);
+}
+
+.card p {
+  color: hsl(0, 0%, 48%);
+}
